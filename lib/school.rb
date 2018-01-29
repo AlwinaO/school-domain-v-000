@@ -21,9 +21,8 @@ class School
 
   def sort
     roster.sort_by do |grade, student|
-
+      grade.a <=> grade.b
     end
-
   end
 
 
