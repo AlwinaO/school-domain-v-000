@@ -14,8 +14,9 @@ class School
 
   end
 
-  def grade(roster)
-    
+  def grade
+    return student
+
   end
 
   def sort
