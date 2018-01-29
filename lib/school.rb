@@ -21,8 +21,8 @@ class School
 
   def sort
     sorted = {}
-    roster.sort do |grade, student|
-      sorted.grade = student.sort
+    roster.sort do |grade, students|
+      sorted.grade = students.sort
     end
     sorted
   end
