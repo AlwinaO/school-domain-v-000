@@ -14,7 +14,7 @@ class School
 
   end
 
-  def grade
+  def grade(student)
 
   end
 
